@@ -137,7 +137,41 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="BattleShip.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="FireMode.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="HighScrore.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="SceneBase.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Widget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="BattleShip.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="FireMode.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="HighScore.h" />
+    <ClInclude Include="IGameObject.h" />
+    <ClInclude Include="IGraphics.h" />
+    <ClInclude Include="Iinput.h" />
+    <ClInclude Include="IPhysics.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
