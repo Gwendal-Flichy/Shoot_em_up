@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\",
+  "WorkspaceRootPath": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "DocumentMoniker": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
               "RelativeDocumentMoniker": "Shoot_em_up\\main.cpp",
-              "ToolTip": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "ToolTip": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
               "RelativeToolTip": "Shoot_em_up\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwIwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T14:17:11.934Z",
               "EditorCaption": ""

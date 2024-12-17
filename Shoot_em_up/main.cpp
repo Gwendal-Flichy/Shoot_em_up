@@ -4,6 +4,7 @@
 
 int main()
 {
+    bool Activate = false;
     int x = 800;
     int y = 800;
     sf::RenderWindow window(sf::VideoMode(x, y), "SFML works!");
@@ -16,35 +17,52 @@ int main()
     int CenterXRotor = 22;
     int CenterYRotor = 35;
 
-    //sf::Texture Rotor;
-    //Rotor.loadFromFile("Texture/Player/chopper-44x99.png");
-    //sf::Sprite spriteRotor;
-    //spriteRotor.setTexture(Rotor);
-    //spriteRotor.setOrigin(48, 49);
-    //spriteRotor.setPosition(PositionXHelicopter + CenterXRotor, PositionYHelicopter + CenterYRotor);
-    ///*spriteRotor.setPosition(374, 387);*/
+    sf::Texture Rotor;
+    Rotor.loadFromFile("Texture/Player/chopper-44x99.png");
+    sf::Sprite spriteRotor;
+    spriteRotor.setTexture(Rotor);
+    spriteRotor.setTextureRect(sf::IntRect(132, 0, 96, 98));
+    spriteRotor.setOrigin(48, 49);
+    spriteRotor.setPosition(PositionXHelicopter + CenterXRotor, PositionYHelicopter + CenterYRotor);
+    /*spriteRotor.setPosition(374, 387);*/
 
 
     sf::Texture Helicopter;
     Helicopter.loadFromFile("Texture/Player/chopper-44x99.png");
     sf::Sprite spriteHelicopter;
     spriteHelicopter.setTexture(Helicopter);
+    spriteHelicopter.setTextureRect(sf::IntRect(0, 100, 43, 98));
     /*spriteHelicopter.setOrigin(22, 33);*/
     spriteHelicopter.setPosition(PositionXHelicopter, PositionYHelicopter);
     float HelicopterSpeed = 300.f;
 
+    
+    sf::Texture HelicopterEnnemi;
+    HelicopterEnnemi.loadFromFile("Texture/Player/chopper-44x99.png");
+    sf::Sprite spriteHelicopterEnnemi;
+    spriteHelicopterEnnemi.setTexture(HelicopterEnnemi);
+    spriteHelicopterEnnemi.setTextureRect(sf::IntRect(44, 0, 44, 99));
+    spriteHelicopterEnnemi.setPosition(0, PositionYHelicopter);
+
+    struct Ennemi
+    {
+        bool Activate = false;
+    };
+    
+
     sf::Texture Bullet;
     Bullet.loadFromFile("Texture/Shot/M484BulletCollection1.png");
-    sf::Sprite spriteBullet;
-    spriteBullet.setTexture(Bullet);
+    /*sf::Sprite spriteBullet;
+    spriteBullet.setTexture(Bullet);*/
     /*spriteHelicopter.setOrigin(22, 33);*/
     /*spriteBullet.setPosition(PositionxHelicopter, PositionyHelicopter);*/
 
+    //CHANGER LA TEXTURE
     // Configuration du système de tir
     struct Projectile
     {
         sf::Sprite sprite;
-        bool isActive = false;
+        bool isActive = true;
     };
 
     std::vector<Projectile> projectiles(30); // Pool de projectiles
@@ -62,7 +80,7 @@ int main()
 
 
     //Clock for move the draw
-    /*const sf::Clock clock;
+    const sf::Clock clock;
     const sf::Clock spawnClock;
     const sf::Time refreshTime = sf::seconds(1.f / 60.f);
     auto startSpawn = spawnClock.getElapsedTime().asMilliseconds();
@@ -70,29 +88,29 @@ int main()
     auto lag = 0.0;
 
     int counter = 0;
-    bool isStopped = false;*/
+    bool isStopped = false;
 
     // Clock pour la gestion du temps
     // Clock pour la gestion du temps
-    sf::Clock clock;
+    sf::Clock clockBullet;
 
 
     while (window.isOpen())
     {
-        float deltaTime = clock.restart().asSeconds();
+        float deltaTime = clockBullet.restart().asSeconds();
         timeSinceLastShot += deltaTime;
-        //if (const auto lastSpawnTick = spawnClock.getElapsedTime().asMilliseconds(); lastSpawnTick - startSpawn >= 1000)
-        //{
-        //    /*if (!isStopped)
-        //        text.setString(std::to_string(++counter));*/
+        if (const auto lastSpawnTick = spawnClock.getElapsedTime().asMilliseconds(); lastSpawnTick - startSpawn >= 1000)
+        {
+            /*if (!isStopped)
+                text.setString(std::to_string(++counter));*/
 
-        //    startSpawn = lastSpawnTick;
-        //}
+            startSpawn = lastSpawnTick;
+        }
 
-        //const auto current = clock.getElapsedTime().asMilliseconds();
-        //const auto elapsed = current - previous;
-        //previous = current;
-        //lag += elapsed;
+        const auto current = clock.getElapsedTime().asMilliseconds();
+        const auto elapsed = current - previous;
+        previous = current;
+        lag += elapsed;
         window.clear();
 
         //input
@@ -105,11 +123,26 @@ int main()
 
         angle = angle + 0.01f;
 
-        /*while (refreshTime.asMilliseconds() > 0.0
+        while (refreshTime.asMilliseconds() > 0.0
             && lag >= refreshTime.asMilliseconds())
-        {*/
-        // update
+        {
+         //update
         spriteRotor.setRotation(-AngularVelocity * (angle * 180 / 3.14));
+
+
+        spriteHelicopterEnnemi.move(2,0);
+        
+        if (spriteHelicopterEnnemi.getGlobalBounds().intersects(spriteHelicopter.getGlobalBounds()))
+        {
+            
+            Activate = true;
+            
+        }
+        if(!Activate)
+            window.draw(spriteHelicopterEnnemi);
+           
+        
+
 
         sf::Vector2i localPosition = sf::Mouse::getPosition(window); // window est un sf::Window
 
@@ -142,7 +175,7 @@ int main()
             spriteRotor.move(0.f, HelicopterSpeed * deltaTime);
 
         }
-        //timeSinceLastShot += elapsed;
+        
         if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && timeSinceLastShot >= shootCooldown)
         {
             int projectilesShot = 0;
@@ -219,9 +252,10 @@ int main()
         }
         window.draw(spriteHelicopter);
         window.draw(spriteRotor);
+        
 
-        //lag -= refreshTime.asMilliseconds();
-    //}
+        lag -= refreshTime.asMilliseconds();
+    }
 
         window.display();
     }
@@ -235,3 +269,4 @@ int main()
 // faire une fonction destroy
 //implémenter les types des objets(ennemi, perso etc...)
 //implémenter un take dammage et initialiser les points de vies
+//implémenter 2 classe EnnemyFireball et PlayerFireball pour régler les problèmes de collisions de l'entité et la fireball

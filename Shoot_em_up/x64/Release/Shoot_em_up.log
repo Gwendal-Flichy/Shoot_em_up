@@ -1,20 +1,15 @@
-﻿  Animation.cpp
-  BattleShip.cpp
-  Collision.cpp
-  FireMode.cpp
-  Game.cpp
-  HighScrore.cpp
-  Menu.cpp
-  Player.cpp
-  PowerUp.cpp
-  Projectile.cpp
-  ResourceManager.cpp
-  SceneBase.cpp
-  SceneManager.cpp
-  Widget.cpp
+﻿  main.cpp
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(26,85): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(26,49): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(36,55): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(36,34): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(45,43): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+D:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\main.cpp(130,50): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
   Génération de code en cours
-  0 of 4 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  1 of 122 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Fin de la génération du code
-  Shoot_em_up.vcxproj -> C:\Users\gflichy\source\repos\Shoot_em_up\x64\Release\Shoot_em_up.exe
+  Shoot_em_up.vcxproj -> D:\VisualStudio2022\Projet\Shoot_em_up\x64\Release\Shoot_em_up.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
