@@ -1,20 +1,27 @@
-﻿  Animation.cpp
-  BattleShip.cpp
-  Collision.cpp
-  FireMode.cpp
-  Game.cpp
-  HighScrore.cpp
-  Menu.cpp
+﻿  Game.cpp
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(9,35): error C2061: erreur de syntaxe : identificateur 'Ship'
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(28,19): error C2027: utilisation du type non défini 'IGameObject'
+D:\prog\Shoot_em_up\Shoot_em_up\Game.h(7,7): message : voir la déclaration de 'IGameObject'
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(38,19): error C2027: utilisation du type non défini 'IGameObject'
+D:\prog\Shoot_em_up\Shoot_em_up\Game.h(7,7): message : voir la déclaration de 'IGameObject'
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(53,21): error C3861: 'getCurrentTime' : identificateur introuvable
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(56,34): error C3861: 'getCurrentTime' : identificateur introuvable
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(57,20): error C2737: 'elapsedTime' : l’objet const doit être initialisé
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(59,9): error C3861: 'processInput' : identificateur introuvable
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(60,27): error C3536: 'elapsedTime' : ne peut pas être utilisé avant d'avoir été initialisé
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp(60,16): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
   Player.cpp
-  PowerUp.cpp
-  Projectile.cpp
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(37,25): error C2678: '*' binaire : aucun opérateur trouvé qui accepte un opérande de partie gauche de type 'int' (ou il n'existe pas de conversion acceptable)
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp(292,22): message : peut être 'sf::Time sf::operator *(sf::Time,float)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp(304,22): message : ou       'sf::Time sf::operator *(sf::Time,sf::Int64)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp(316,22): message : ou       'sf::Time sf::operator *(float,sf::Time)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Time.hpp(328,22): message : ou       'sf::Time sf::operator *(sf::Int64,sf::Time)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\Graphics\Transform.hpp(394,29): message : ou       'sf::Transform sf::operator *(const sf::Transform &,const sf::Transform &)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\Graphics\Transform.hpp(422,28): message : ou       'sf::Vector2f sf::operator *(const sf::Transform &,const sf::Vector2f &)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\Graphics\Color.hpp(175,25): message : ou       'sf::Color sf::operator *(const sf::Color &,const sf::Color &)' [trouvé à l'aide d'une recherche dépendante d'un argument]
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Vector2.hpp(160,12): message : ou       'sf::Vector2<T> sf::operator *(const sf::Vector2<T> &,T)'
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(37,25): message : 'sf::Vector2<T> sf::operator *(const sf::Vector2<T> &,T)' : nous n’avons pas pu déduire modèle de l'argument 'const sf::Vector2<T> &' de 'int'.
+C:\Users\gflichy\vcpkg\installed\x64-windows\include\SFML\System\Vector2.hpp(173,12): message : ou       'sf::Vector2<T> sf::operator *(T,const sf::Vector2<T> &)'
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(37,40): fatal  error C1903: impossible de récupérer à partir des erreurs précédentes ; arrêt de la compilation
   ResourceManager.cpp
-  SceneBase.cpp
-  SceneManager.cpp
-  Widget.cpp
-  Génération de code en cours
-  0 of 4 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Fin de la génération du code
-  Shoot_em_up.vcxproj -> C:\Users\gflichy\source\repos\Shoot_em_up\x64\Release\Shoot_em_up.exe
+  main.cpp

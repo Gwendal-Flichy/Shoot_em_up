@@ -165,6 +165,7 @@
     <ClInclude Include="Iinput.h" />
     <ClInclude Include="IPhysics.h" />
     <ClInclude Include="Menu.h" />
+    <ClInclude Include="Mymath.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="PowerUp.h" />
     <ClInclude Include="Projectile.h" />

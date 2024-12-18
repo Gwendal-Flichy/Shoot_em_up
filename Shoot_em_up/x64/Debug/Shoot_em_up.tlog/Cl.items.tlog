@@ -1,1 +1,15 @@
-C:\Users\gflichy\source\repos\Shoot_em_up\Shoot_em_up\main.cpp;C:\Users\gflichy\source\repos\Shoot_em_up\Shoot_em_up\x64\Debug\main.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Animation.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Animation.obj
+D:\prog\Shoot_em_up\Shoot_em_up\BattleShip.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\BattleShip.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Collision.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Collision.obj
+D:\prog\Shoot_em_up\Shoot_em_up\FireMode.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\FireMode.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Game.obj
+D:\prog\Shoot_em_up\Shoot_em_up\HighScrore.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\HighScrore.obj
+D:\prog\Shoot_em_up\Shoot_em_up\main.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\main.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Menu.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Menu.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Player.obj
+D:\prog\Shoot_em_up\Shoot_em_up\PowerUp.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\PowerUp.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Projectile.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Projectile.obj
+D:\prog\Shoot_em_up\Shoot_em_up\ResourceManager.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\ResourceManager.obj
+D:\prog\Shoot_em_up\Shoot_em_up\SceneBase.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\SceneBase.obj
+D:\prog\Shoot_em_up\Shoot_em_up\SceneManager.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\SceneManager.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Widget.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Debug\Widget.obj
