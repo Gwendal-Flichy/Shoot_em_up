@@ -170,7 +170,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="PowerUp.h" />
     <ClInclude Include="Projectile.h" />
-    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="RessourceManager.h" />
     <ClInclude Include="SceneBase.h" />
     <ClInclude Include="SceneManager.h" />
     <ClInclude Include="Widget.h" />

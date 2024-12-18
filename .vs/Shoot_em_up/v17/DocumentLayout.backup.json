@@ -1,10 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\",
+  "WorkspaceRootPath": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\ResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\SceneBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\RessourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Iinput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Iinput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IPhysics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IPhysics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGraphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IGraphics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,20 +61,182 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 190,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Menu.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Menu.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Menu.h",
+              "RelativeToolTip": "Shoot_em_up\\Menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T01:17:51.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Player.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.h",
+              "RelativeToolTip": "Shoot_em_up\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T00:17:36.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneManager.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneManager.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\SceneManager.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneManager.h",
+              "RelativeToolTip": "Shoot_em_up\\SceneManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T01:13:48.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneBase.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneBase.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\SceneBase.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\SceneBase.h",
+              "RelativeToolTip": "Shoot_em_up\\SceneBase.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T00:11:39.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IGraphics.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGraphics.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IGraphics.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGraphics.h",
+              "RelativeToolTip": "Shoot_em_up\\IGraphics.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T23:21:04.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPhysics.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IPhysics.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IPhysics.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IPhysics.h",
+              "RelativeToolTip": "Shoot_em_up\\IPhysics.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T00:53:38.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGameObject.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IGameObject.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeToolTip": "Shoot_em_up\\IGameObject.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T23:03:50.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Iinput.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Iinput.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Iinput.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Iinput.h",
+              "RelativeToolTip": "Shoot_em_up\\Iinput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T00:58:14.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\main.cpp",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "RelativeToolTip": "Shoot_em_up\\main.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T14:17:11.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RessourceManager.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\RessourceManager.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h",
+              "RelativeToolTip": "Shoot_em_up\\RessourceManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-17T23:33:38.944Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 210,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
-              "RelativeDocumentMoniker": "Shoot_em_up\\main.cpp",
-              "ToolTip": "D:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\main.cpp",
-              "RelativeToolTip": "Shoot_em_up\\main.cpp",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAkwIwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Player.cpp",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Player.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-12T14:17:11.934Z",
+              "WhenOpened": "2024-12-18T00:36:31.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResourceManager.cpp",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\ResourceManager.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\ResourceManager.cpp",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\ResourceManager.cpp",
+              "RelativeToolTip": "Shoot_em_up\\ResourceManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-18T00:48:58.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Game.h",
+              "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Game.h",
+              "ToolTip": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeToolTip": "Shoot_em_up\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T00:12:31.225Z",
               "EditorCaption": ""
             }
           ]

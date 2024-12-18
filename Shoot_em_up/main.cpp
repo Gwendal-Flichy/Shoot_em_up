@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include<iostream>
 #include <vector>
+#include "Player.h"
 
 int main()
 {
@@ -10,31 +11,37 @@ int main()
     sf::RenderWindow window(sf::VideoMode(x, y), "SFML works!");
     window.setFramerateLimit(60);
 
-    float angle = 0.f;
-    float AngularVelocity = 40.f;
-    int PositionXHelicopter = 400;
-    int PositionYHelicopter = 400;
-    int CenterXRotor = 22;
-    int CenterYRotor = 35;
+    //float angle = 0.f;
+    //float AngularVelocity = 40.f;
+    //int PositionXHelicopter = 400;
+    //int PositionYHelicopter = 400;
+    //int CenterXRotor = 22;
+    //int CenterYRotor = 35;
 
-    sf::Texture Rotor;
-    Rotor.loadFromFile("Texture/Player/chopper-44x99.png");
-    sf::Sprite spriteRotor;
-    spriteRotor.setTexture(Rotor);
-    spriteRotor.setTextureRect(sf::IntRect(132, 0, 96, 98));
-    spriteRotor.setOrigin(48, 49);
-    spriteRotor.setPosition(PositionXHelicopter + CenterXRotor, PositionYHelicopter + CenterYRotor);
-    /*spriteRotor.setPosition(374, 387);*/
+    ///*sf::RectangleShape rectangle(sf::Vector2f(static_cast<float> (x), static_cast<float> (y)));
+    //rectangle.setFillColor(sf::Color::Green);*/
+
+    //sf::Texture Rotor;
+    //Rotor.loadFromFile("Texture/Player/chopper-44x99.png");
+    //sf::Sprite spriteRotor;
+    //spriteRotor.setTexture(Rotor);
+    //spriteRotor.setTextureRect(sf::IntRect(132, 0, 96, 98));
+    //spriteRotor.setOrigin(48, 49);
+    //spriteRotor.setPosition(PositionXHelicopter + CenterXRotor, PositionYHelicopter + CenterYRotor);
+    ///*spriteRotor.setPosition(374, 387);*/
 
 
-    sf::Texture Helicopter;
-    Helicopter.loadFromFile("Texture/Player/chopper-44x99.png");
-    sf::Sprite spriteHelicopter;
-    spriteHelicopter.setTexture(Helicopter);
-    spriteHelicopter.setTextureRect(sf::IntRect(0, 100, 43, 98));
-    /*spriteHelicopter.setOrigin(22, 33);*/
-    spriteHelicopter.setPosition(PositionXHelicopter, PositionYHelicopter);
-    float HelicopterSpeed = 300.f;
+    //sf::Texture Helicopter;
+    //Helicopter.loadFromFile("Texture/Player/chopper-44x99.png");
+    //sf::Sprite spriteHelicopter;
+    //spriteHelicopter.setTexture(Helicopter);
+    //spriteHelicopter.setTextureRect(sf::IntRect(0, 100, 43, 98));
+    ///*spriteHelicopter.setOrigin(22, 33);*/
+    //spriteHelicopter.setPosition(PositionXHelicopter, PositionYHelicopter);
+    //float HelicopterSpeed = 300.f;
+
+    Player player;
+    
 
     
     sf::Texture HelicopterEnnemi;
@@ -61,7 +68,7 @@ int main()
     // Configuration du système de tir
     struct Projectile
     {
-        sf::Sprite sprite;
+        sf::Sprite spriteBullet;
         bool isActive = true;
     };
 
@@ -72,45 +79,19 @@ int main()
     // Initialisation des projectiles
     for (auto& projectile : projectiles)
     {
-        projectile.sprite.setTexture(Bullet);
-        projectile.sprite.setOrigin(Bullet.getSize().x / 2.f,
+        projectile.spriteBullet.setTexture(Bullet);
+        projectile.spriteBullet.setTextureRect(sf::IntRect(401,216, 8,13));
+        /*projectile.spriteBullet.setOrigin(Bullet.getSize().x / 2.f,
             Bullet.getSize().y / 2.f);
-        projectile.sprite.setScale(0.5f, 0.5f);
+        projectile.spriteBullet.setScale(0.5f, 0.5f);*/
     }
 
-
-    //Clock for move the draw
-    const sf::Clock clock;
-    const sf::Clock spawnClock;
-    const sf::Time refreshTime = sf::seconds(1.f / 60.f);
-    auto startSpawn = spawnClock.getElapsedTime().asMilliseconds();
-    auto previous = clock.getElapsedTime().asMilliseconds();
-    auto lag = 0.0;
-
-    int counter = 0;
-    bool isStopped = false;
-
-    // Clock pour la gestion du temps
-    // Clock pour la gestion du temps
     sf::Clock clockBullet;
-
-
     while (window.isOpen())
     {
         float deltaTime = clockBullet.restart().asSeconds();
         timeSinceLastShot += deltaTime;
-        if (const auto lastSpawnTick = spawnClock.getElapsedTime().asMilliseconds(); lastSpawnTick - startSpawn >= 1000)
-        {
-            /*if (!isStopped)
-                text.setString(std::to_string(++counter));*/
-
-            startSpawn = lastSpawnTick;
-        }
-
-        const auto current = clock.getElapsedTime().asMilliseconds();
-        const auto elapsed = current - previous;
-        previous = current;
-        lag += elapsed;
+        
         window.clear();
 
         //input
@@ -122,26 +103,18 @@ int main()
         }
 
         angle = angle + 0.01f;
-
-        while (refreshTime.asMilliseconds() > 0.0
-            && lag >= refreshTime.asMilliseconds())
-        {
-         //update
         spriteRotor.setRotation(-AngularVelocity * (angle * 180 / 3.14));
 
 
-        spriteHelicopterEnnemi.move(2,0);
-        
+        spriteHelicopterEnnemi.move(2, 0);
+
         if (spriteHelicopterEnnemi.getGlobalBounds().intersects(spriteHelicopter.getGlobalBounds()))
-        {
-            
             Activate = true;
-            
-        }
-        if(!Activate)
+
+        if (!Activate)
             window.draw(spriteHelicopterEnnemi);
-           
-        
+
+
 
 
         sf::Vector2i localPosition = sf::Mouse::getPosition(window); // window est un sf::Window
@@ -175,7 +148,7 @@ int main()
             spriteRotor.move(0.f, HelicopterSpeed * deltaTime);
 
         }
-        
+
         if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && timeSinceLastShot >= shootCooldown)
         {
             int projectilesShot = 0;
@@ -188,16 +161,16 @@ int main()
                     // Position du premier projectile (gauche)
                     if (projectilesShot == 0)
                     {
-                        projectile.sprite.setPosition(
-                            spriteHelicopter.getPosition().x + 5,
+                        projectile.spriteBullet.setPosition(
+                            spriteHelicopter.getPosition().x -2 ,
                             spriteHelicopter.getPosition().y + 20
                         );
                     }
                     // Position du deuxième projectile (droite)
                     else
                     {
-                        projectile.sprite.setPosition(
-                            spriteHelicopter.getPosition().x + 40,
+                        projectile.spriteBullet.setPosition(
+                            spriteHelicopter.getPosition().x + 37,
                             spriteHelicopter.getPosition().y + 20
                         );
                     }
@@ -219,10 +192,10 @@ int main()
             if (projectile.isActive)
             {
                 // Déplacement du projectile
-                projectile.sprite.move(0, -400.f * deltaTime);
+                projectile.spriteBullet.move(0, -400.f * deltaTime);
 
                 // Désactivation si hors écran
-                if (projectile.sprite.getPosition().y < -50.f)
+                if (projectile.spriteBullet.getPosition().y < -50.f)
                 {
                     projectile.isActive = false;
                 }
@@ -243,19 +216,18 @@ int main()
         //    /*spriteRotor.setRotation(localPosition.y);*/
 
         //}
+       
         for (const auto& projectile : projectiles)
         {
             if (projectile.isActive)
             {
-                window.draw(projectile.sprite);
+                window.draw(projectile.spriteBullet);
             }
         }
+        
         window.draw(spriteHelicopter);
         window.draw(spriteRotor);
-        
-
-        lag -= refreshTime.asMilliseconds();
-    }
+    
 
         window.display();
     }
