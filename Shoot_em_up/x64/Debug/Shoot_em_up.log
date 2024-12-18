@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ﻿  main.cpp
   Shoot_em_up.vcxproj -> C:\Users\gflichy\source\repos\Shoot_em_up\x64\Debug\Shoot_em_up.exe
@@ -21,3 +22,20 @@ BattleShip.obj : error LNK2001: symbole externe non résolu "public: virtual voi
 BattleShip.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl IEnnemy::render(class sf::RenderWindow &)" (?render@IEnnemy@@UEAAXAEAVRenderWindow@sf@@@Z)
 E:\Visual Studio projet\SFML\Shoot_em_up\x64\Debug\Shoot_em_up.exe : fatal error LNK1120: 3 externes non résolus
 >>>>>>> Stashed changes
+=======
+﻿  Player.cpp
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(61,40): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(63,57): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(63,38): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+  Shoot_em_up.vcxproj -> D:\prog\Shoot_em_up\x64\Debug\Shoot_em_up.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
+>>>>>>> DEV_Gwen2

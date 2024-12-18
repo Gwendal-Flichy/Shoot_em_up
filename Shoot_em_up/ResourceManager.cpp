@@ -1,10 +1,6 @@
-#include "RessourceManager.h" 
+#include "ResourceManager.h"
 
-void RessourceManager::Render()
-{
-
-}
-sf::Texture& RessourceManager::getTexture(const std::string path)
+sf::Texture& TextureCash::getTexture(const std::string path)
 {
 
     for (auto& texture : m_allTextureInfo)
@@ -14,14 +10,12 @@ sf::Texture& RessourceManager::getTexture(const std::string path)
     }
 
 
-    TextureInfo Ti;
-    Ti.path = path;
-    Ti.texture = new sf::Texture;
-    Ti.texture->loadFromFile(path);
-    m_allTextureInfo.push_back(Ti);
+    TextureInfo ti;
+    ti.path = path;
+    ti.texture = new sf::Texture;
+    ti.texture->loadFromFile(path);
+    m_allTextureInfo.push_back(ti);
 
 
     return *m_allTextureInfo.back().texture;
 }
-
-

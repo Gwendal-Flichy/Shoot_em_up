@@ -1,19 +1,32 @@
 #pragma once
-
 #include "IGameObject.h"
 
-class Player: public IGameObject
+
+
+class Game;
+
+class PlayerShip : public IGameObject
 {
 public:
-	Player();
-		
-	void handleInput() override;
-	void update() override;
-	void render(sf::RenderWindow& window) override;
+    PlayerShip(Game& gameRef);
 
+    void handleInput() override;
+
+    void update(float deltaTime) override;
+
+    void render(sf::RenderWindow& window) override;
 private:
-	int  m_vie;
-	sf::Texture m_Texture;
-	sf::Sprite m_Sprite;
-	sf::Vector2f m_Position;
+    sf::Texture m_texture;
+    sf::Sprite m_sprite;
+
+    bool isAccelerating;
+    bool isTurningLeft;
+    bool isTurningRight;
+    bool isDecelerate;
+
+    float m_angle;
+
+    Vec2 m_position;
+    Vec2 m_velocity;
+    Game& m_game;
 };

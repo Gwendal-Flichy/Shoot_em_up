@@ -1,56 +1,69 @@
 #include "Player.h"
+#include "Game.h"
 
-float angle() { return 0.f; } 
-float AngularVelocity() { return 40.f; } 
-int PositionXHelicopter() { return 400; } 
-int PositionYHelicopter() { return 400; }
-int CenterXRotor() { return 22; }
-int CenterYRotor() { return 35; }
-float HelicopterSpeed() { return 300.f; }
+#include "Mymath.h"
 
-Player::Player()
-	:m_vie()
-	, m_Sprite()
-	, m_Texture()
-	, m_Position()
-{
-    sf::Texture Rotor;
-    Rotor.loadFromFile("Texture/Player/chopper-44x99.png");
-    sf::Sprite spriteRotor;
-    spriteRotor.setTexture(Rotor);
-    spriteRotor.setTextureRect(sf::IntRect(132, 0, 96, 98));
-    spriteRotor.setOrigin(48, 49);
-    spriteRotor.setPosition(PositionXHelicopter() + CenterXRotor(), PositionYHelicopter() + CenterYRotor());
+#include "ResourceManager.h"
 
-    sf::Texture Helicopter;
-    Helicopter.loadFromFile("Texture/Player/chopper-44x99.png");
-    sf::Sprite spriteHelicopter;
-    spriteHelicopter.setTexture(Helicopter);
-    spriteHelicopter.setTextureRect(sf::IntRect(0, 100, 43, 98));
-    /*spriteHelicopter.setOrigin(22, 33);*/
-    spriteHelicopter.setPosition(PositionXHelicopter(), PositionYHelicopter());
+PlayerShip::PlayerShip(Game& gameRef) : 
+    m_game(gameRef)
+    ,m_angle(0.f)
+    ,m_position{300.f, 300.f }
+    ,m_velocity{0.f, 0.f }
+    ,isAccelerating(false)
+    ,isTurningLeft(false)
+    ,isTurningRight(false)
     
-}
-
-void Player::handleInput()
 {
 
+    //m_texture.loadFromFile("C:\\Users\\gflichy\\source\\repos\\test_projet_SFML\\test_projet_SFML\\Truc.bmp");
+    
+    m_texture = m_game.getTextureCash().getTexture("Texture\\Player\\aircraft_1.png");
+    m_sprite.setTexture(m_game.getTextureCash().getTexture("Texture\\Player\\aircraft_1.png"));
+
 }
-void Player::update()
+
+void PlayerShip::handleInput()
+{
+    isAccelerating = (sf::Keyboard::isKeyPressed(sf::Keyboard::Up));
+    isTurningLeft = (sf::Keyboard::isKeyPressed(sf::Keyboard::Left));
+    isTurningRight = (sf::Keyboard::isKeyPressed(sf::Keyboard::Right));
+
+}
+
+void PlayerShip::update(float deltaTime)
 {
 
-<<<<<<< Updated upstream
-=======
+    if (isTurningLeft)
+        m_angle -= 0.05f;
+    if (isTurningRight)
+        m_angle += 0.05f;
+
+    Vec2 acceleration{ 0.f, 0.f };
+    if (!isAccelerating)
+        acceleration = -0.7f * m_velocity;
+    if (isAccelerating)
+        acceleration += Vec2{ std::cos(m_angle - 3.14f / 2.f),std::sin(m_angle - 3.14f / 2.f) }*100;
+
+
+    m_position += m_velocity * deltaTime;
+
+    m_velocity += acceleration * deltaTime;
+    if (m_velocity.getlenght() > 200)
+        m_velocity = m_velocity * (200 / m_velocity.getlenght());
+}
+
+
+
+void PlayerShip::render(sf::RenderWindow& window)
+{
+
     m_sprite.setRotation(m_angle * 180 / 3.14);
     sf::Vector2u textureSize = m_texture.getSize();
-    m_sprite.setOrigin(static_cast<float> (textureSize.x / 2), static_cast<float> (textureSize.y / 2));
+    m_sprite.setOrigin(textureSize.x / 2, textureSize.y / 2);
     m_sprite.setPosition(m_position.x,m_position.y);
     window.draw(m_sprite);
 
 
->>>>>>> Stashed changes
 }
-void Player::render(sf::RenderWindow& window)
-{
 
-}

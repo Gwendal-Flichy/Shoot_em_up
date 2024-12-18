@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\Animation.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\Animation.obj
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\BattleShip.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\BattleShip.obj
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\Collision.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\Collision.obj
@@ -13,3 +14,20 @@ F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\ResourceManager.cpp;F:\Visual
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\SceneBase.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\SceneBase.obj
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\SceneManager.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\SceneManager.obj
 F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\Widget.cpp;F:\VisualStudio2022\Projet\Shoot_em_up\Shoot_em_up\x64\Release\Widget.obj
+=======
+D:\prog\Shoot_em_up\Shoot_em_up\Animation.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Animation.obj
+D:\prog\Shoot_em_up\Shoot_em_up\BattleShip.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\BattleShip.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Collision.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Collision.obj
+D:\prog\Shoot_em_up\Shoot_em_up\FireMode.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\FireMode.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Game.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Game.obj
+D:\prog\Shoot_em_up\Shoot_em_up\HighScrore.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\HighScrore.obj
+D:\prog\Shoot_em_up\Shoot_em_up\main.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\main.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Menu.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Menu.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Player.obj
+D:\prog\Shoot_em_up\Shoot_em_up\PowerUp.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\PowerUp.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Projectile.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Projectile.obj
+D:\prog\Shoot_em_up\Shoot_em_up\ResourceManager.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\ResourceManager.obj
+D:\prog\Shoot_em_up\Shoot_em_up\SceneBase.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\SceneBase.obj
+D:\prog\Shoot_em_up\Shoot_em_up\SceneManager.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\SceneManager.obj
+D:\prog\Shoot_em_up\Shoot_em_up\Widget.cpp;D:\prog\Shoot_em_up\Shoot_em_up\x64\Release\Widget.obj
+>>>>>>> DEV_Gwen2
