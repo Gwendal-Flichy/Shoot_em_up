@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\",
   "Documents": [
     {
@@ -53,6 +54,49 @@
     {
       "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+  "WorkspaceRootPath": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Mymath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Mymath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\BattleShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IEnnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IEnnemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\BattleShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -61,6 +105,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< Updated upstream
           "DockedWidth": 190,
           "SelectedChildIndex": 1,
           "Children": [
@@ -211,11 +256,36 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-18T00:36:31.106Z",
+=======
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mymath.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Mymath.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Mymath.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Mymath.h",
+              "RelativeToolTip": "Shoot_em_up\\Mymath.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:40:18.146Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< Updated upstream
               "Title": "ResourceManager.cpp",
               "DocumentMoniker": "F:\\VisualStudio2022\\Projet\\Shoot_em_up\\Shoot_em_up\\ResourceManager.cpp",
               "RelativeDocumentMoniker": "Shoot_em_up\\ResourceManager.cpp",
@@ -237,6 +307,125 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-12-18T00:12:31.225Z",
+=======
+              "Title": "IEnnemy.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IEnnemy.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IEnnemy.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IEnnemy.h",
+              "RelativeToolTip": "Shoot_em_up\\IEnnemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:11:03.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Player.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.h",
+              "RelativeToolTip": "Shoot_em_up\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:04:45.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BattleShip.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\BattleShip.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.h",
+              "RelativeToolTip": "Shoot_em_up\\BattleShip.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:08:12.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGameObject.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IGameObject.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeToolTip": "Shoot_em_up\\IGameObject.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:12:40.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Game.h",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Game.h",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeToolTip": "Shoot_em_up\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-18T19:19:25.379Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "main.cpp",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\main.cpp",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "RelativeToolTip": "Shoot_em_up\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T14:17:11.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Game.cpp",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Game.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Game.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-12T15:15:19.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Player.cpp",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Player.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-18T19:05:05.005Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 315,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BattleShip.cpp",
+              "DocumentMoniker": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\BattleShip.cpp",
+              "ToolTip": "E:\\Visual Studio projet\\SFML\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp",
+              "RelativeToolTip": "Shoot_em_up\\BattleShip.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-18T19:21:55.756Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]

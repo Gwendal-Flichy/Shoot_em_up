@@ -1,1 +1,19 @@
+<<<<<<< Updated upstream
 C:\Users\gflichy\source\repos\Shoot_em_up\Shoot_em_up\main.cpp;C:\Users\gflichy\source\repos\Shoot_em_up\Shoot_em_up\x64\Debug\main.obj
+=======
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Animation.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Animation.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\BattleShip.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\BattleShip.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Collision.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Collision.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\FireMode.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\FireMode.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Game.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Game.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\HighScrore.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\HighScrore.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\main.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\main.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Menu.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Menu.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Player.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Player.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\PowerUp.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\PowerUp.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Projectile.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Projectile.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\ResourceManager.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\ResourceManager.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\SceneBase.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\SceneBase.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\SceneManager.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\SceneManager.obj
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Widget.cpp;E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\x64\Debug\Widget.obj
+>>>>>>> Stashed changes

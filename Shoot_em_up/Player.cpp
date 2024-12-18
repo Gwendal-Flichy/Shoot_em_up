@@ -39,6 +39,16 @@ void Player::handleInput()
 void Player::update()
 {
 
+<<<<<<< Updated upstream
+=======
+    m_sprite.setRotation(m_angle * 180 / 3.14);
+    sf::Vector2u textureSize = m_texture.getSize();
+    m_sprite.setOrigin(static_cast<float> (textureSize.x / 2), static_cast<float> (textureSize.y / 2));
+    m_sprite.setPosition(m_position.x,m_position.y);
+    window.draw(m_sprite);
+
+
+>>>>>>> Stashed changes
 }
 void Player::render(sf::RenderWindow& window)
 {
