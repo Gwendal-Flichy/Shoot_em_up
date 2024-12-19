@@ -1,9 +1,7 @@
+
 #include "BattleShip.h"
 #include "Game.h"
-
-
-
-#include "ResourceManager.h"
+#include "RessourceManager.h"
 
 Battleship::Battleship(Game& gameRef)
     : m_game(gameRef)
@@ -18,6 +16,15 @@ Battleship::Battleship(Game& gameRef)
     //E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Texture\Enemies\Battleship
     m_texture = m_game.getTextureCash().getTexture("Texture\\Enemies\\Battleship\\ShipBattleshipHull.png");
     m_sprite.setTexture(m_game.getTextureCash().getTexture("Texture\\Enemies\\Battleship\\ShipBattleshipHull.png"));
+}
+
+ObjectType Battleship::getObjectType() const
+{
+    return ObjectType::Enemy;
+}
+sf::FloatRect Battleship::getBounds() const
+{
+    return m_sprite.getGlobalBounds();
 }
 
 void Battleship::handleInput()
@@ -56,3 +63,4 @@ void Battleship:: render(sf::RenderWindow& window)
 }
 //IEnnemy::~IEnnemy()
 //{}
+

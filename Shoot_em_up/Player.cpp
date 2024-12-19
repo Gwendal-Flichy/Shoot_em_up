@@ -1,8 +1,9 @@
+
 #include "Player.h"
 #include "Game.h"
 
 
-#include "ResourceManager.h"
+#include "RessourceManager.h"
 
 PlayerShip::PlayerShip(Game& gameRef) : 
     m_game(gameRef)
@@ -12,7 +13,7 @@ PlayerShip::PlayerShip(Game& gameRef) :
     ,isAccelerating(false)
     ,isTurningLeft(false)
     ,isTurningRight(false)
-    
+    ,isFire(false)
 {
 
     //m_texture.loadFromFile("C:\\Users\\gflichy\\source\\repos\\test_projet_SFML\\test_projet_SFML\\Truc.bmp");
@@ -22,12 +23,13 @@ PlayerShip::PlayerShip(Game& gameRef) :
 
 }
 
+
 void PlayerShip::handleInput()
 {
     isAccelerating = (sf::Keyboard::isKeyPressed(sf::Keyboard::Up));
     isTurningLeft = (sf::Keyboard::isKeyPressed(sf::Keyboard::Left));
     isTurningRight = (sf::Keyboard::isKeyPressed(sf::Keyboard::Right));
-
+    isFire = (sf::Keyboard::isKeyPressed(sf::Keyboard::Space));
 }
 
 void PlayerShip::update(float deltaTime)
@@ -50,6 +52,9 @@ void PlayerShip::update(float deltaTime)
     m_velocity += acceleration * deltaTime;
     if (m_velocity.getlenght() > 200)
         m_velocity = m_velocity * (200 / m_velocity.getlenght());
+
+    if (isFire)
+        fire.basicFire(m_game, "Texture\\Player\\aircraft_1.png", ObjectType::ProjectileP, m_position, m_angle);
 }
 
 
@@ -65,4 +70,14 @@ void PlayerShip::render(sf::RenderWindow& window)
 
 
 }
+
+ObjectType PlayerShip::getObjectType() const
+{
+    return ObjectType::Player;
+}
+sf::FloatRect PlayerShip::getBounds() const
+{
+    return m_sprite.getGlobalBounds();
+}
+
 

@@ -1,16 +1,21 @@
 #pragma once
 
+
 #include "vector"
 #include <SFML/Graphics.hpp>
-#include "ResourceManager.h"
+#include "RessourceManager.h"
+#include "Collision.h"
+#include "MilitaryMenu.h"
 
 class IGameObject;
 
 class Game
 {
+    friend class Collision;
 public:
-    friend class PlayerShip;
-    Game();
+    
+    Game(sf::RenderWindow& window, MilitaryMenu& militaryMenu);
+    //~Game();
 
     void handleInput();
 
@@ -22,10 +27,17 @@ public:
 
     TextureCash& getTextureCash();
 
+    void addGameObject(IGameObject* object);
 
+    void removeGameObject(IGameObject* object);
+    
 
 private:
-    sf::RenderWindow m_window;
+    
     std::vector<IGameObject*> m_allGameObject;
     TextureCash m_allTextureCash;
+    sf::RenderWindow& m_window;
+    MilitaryMenu& m_menu;
+    Collision* m_collision;
 };
+

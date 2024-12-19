@@ -1,4 +1,5 @@
 #pragma once
+
 #include "IEnnemy.h"
 #include "Mymath.h"
 
@@ -8,12 +9,17 @@ class Battleship : public IEnnemy
 {
 public:
 	Battleship(Game& gameRef);
+
+    ObjectType getObjectType() const override;
+    sf::FloatRect getBounds() const override;
+
 	void handleInput() override;
 	void update(float deltaTime) override;
 	void render(sf::RenderWindow& window) override;
 private:
     sf::Texture m_texture;
     sf::Sprite m_sprite;
+
 
     bool isAccelerating;
     bool isTurningLeft;

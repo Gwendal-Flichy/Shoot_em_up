@@ -1,37 +1,67 @@
 #include <SFML/Graphics.hpp>
 #include "Game.h"
+#include <iostream>
+#include "MilitaryMenu.h"
+
 
 
 int main()
 {
-    //sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    //sf::CircleShape shape(100.f);
-    //shape.setFillColor(sf::Color::Green);
 
-    //while (window.isOpen())
-    //{
-    //    sf::Event event;
-    //    while (window.pollEvent(event))
-    //    {
-    //        if (event.type == sf::Event::Closed)
-    //            window.close();
-    //    }
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Menu Militaire");
+    
+    MilitaryMenu menu(window);
 
-    //    window.clear();
-    //    window.draw(shape);
-    //    window.display();
-    //}
+    
+    bool gameStarted = false;
+    while (window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
 
-    Game game;
-    game.run();
+        menu.checkMouseEvent();
+        menu.draw();
+
+        std::string action = menu.getAction();
+
+        if (action == "Quit") {
+            window.close();
+            break;
+        }
+
+        if (action == "Start" && !gameStarted) {
+            std::cout << "Mission commencee !" << std::endl;
+            Game game(window, menu);  
+            game.run();  
+            gameStarted = true;
+
+            int currentScore = 150;  
+            menu.updateHighScore(currentScore);
+            menu.navigateBack();  
+        }
+        if (action == "Options") {
+            menu.openOptions();
+        }
+
+
+        
+        if (action == "Difficulty") {
+            menu.updateDifficulty();
+        }
+
+        
+        if (action == "Volume") {
+            menu.updateVolume();
+        }
+
+        
+        if (action == "Back") {
+            menu.navigateBack();
+        }
+    }
+
 
     return 0;
 }
-//Pour la detection de collision on utilise un design pattern strategy
-// Pour surcharger un operator += le faire dans la fonction membre avec
-// friend class
-//throw std::runtime_error("Try to remove non existing");
-// faire une fonction destroy
-//impl�menter les types des objets(ennemi, perso etc...)
-//impl�menter un take dammage et initialiser les points de vies
-//impl�menter 2 classe EnnemyFireball et PlayerFireball pour r�gler les probl�mes de collisions de l'entit� et la fireball

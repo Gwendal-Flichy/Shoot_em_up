@@ -1,9 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\",
+  "WorkspaceRootPath": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\FireMode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\FireMode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\BattleShip.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\RessourceManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\RessourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Collision.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\BattleShip.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Animation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\Animation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IPhysics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\IPhysics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FBBF6027-2C98-4F78-9918-2C092A97C89F}|Shoot_em_up\\Shoot_em_up.vcxproj|solutionrelative:Shoot_em_up\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -19,12 +79,207 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Projectile.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Projectile.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Projectile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:33:05.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Game.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Game.h",
+              "RelativeToolTip": "Shoot_em_up\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:32:26.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RessourceManager.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\RessourceManager.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.h",
+              "RelativeToolTip": "Shoot_em_up\\RessourceManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:29:32.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RessourceManager.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\RessourceManager.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\RessourceManager.cpp",
+              "RelativeToolTip": "Shoot_em_up\\RessourceManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:27:28.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGameObject.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IGameObject.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IGameObject.h",
+              "RelativeToolTip": "Shoot_em_up\\IGameObject.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:27:02.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FireMode.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\FireMode.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.cpp",
+              "RelativeToolTip": "Shoot_em_up\\FireMode.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:26:55.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Collision.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Collision.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Collision.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Collision.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Collision.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:26:53.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Animation.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Animation.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Animation.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Animation.h",
+              "RelativeToolTip": "Shoot_em_up\\Animation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:26:16.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BattleShip.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\BattleShip.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.h",
+              "RelativeToolTip": "Shoot_em_up\\BattleShip.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:26:14.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projectile.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Projectile.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Projectile.h",
+              "RelativeToolTip": "Shoot_em_up\\Projectile.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:25:38.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FireMode.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\FireMode.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\FireMode.h",
+              "RelativeToolTip": "Shoot_em_up\\FireMode.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:26:13.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\Player.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\Player.cpp",
+              "RelativeToolTip": "Shoot_em_up\\Player.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:33:03.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BattleShip.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp",
+              "RelativeDocumentMoniker": "Shoot_em_up\\BattleShip.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\BattleShip.cpp",
+              "RelativeToolTip": "Shoot_em_up\\BattleShip.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-19T17:33:00.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PowerUp.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\PowerUp.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\PowerUp.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\PowerUp.h",
+              "RelativeToolTip": "Shoot_em_up\\PowerUp.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:25:36.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPhysics.h",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IPhysics.h",
+              "RelativeDocumentMoniker": "Shoot_em_up\\IPhysics.h",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\IPhysics.h",
+              "RelativeToolTip": "Shoot_em_up\\IPhysics.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-19T17:25:26.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\main.cpp",
               "RelativeDocumentMoniker": "Shoot_em_up\\main.cpp",
-              "ToolTip": "C:\\Users\\gflichy\\source\\repos\\Shoot_em_up\\Shoot_em_up\\main.cpp",
+              "ToolTip": "C:\\Users\\gflichy\\Documents\\Shoot_em_up\\Shoot_em_up\\main.cpp",
               "RelativeToolTip": "Shoot_em_up\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-12T14:17:11.934Z",
               "EditorCaption": ""
