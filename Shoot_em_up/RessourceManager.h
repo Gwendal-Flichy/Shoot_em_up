@@ -1,13 +1,12 @@
 #pragma once
-
-#include <string>
+#include "IGraphics.h"
 #include <SFML/Graphics.hpp>
-#include "vector"
+#include <string>
 
-
-class TextureCash
+class RessourceManager : public IGraphics
 {
 public:
+	void Render();
 	sf::Texture& getTexture(const std::string path);
 private:
 	struct TextureInfo
@@ -15,5 +14,6 @@ private:
 		sf::Texture* texture;
 		std::string path;
 	};
-	std::vector<TextureInfo> m_allTextureInfo;
+	std::vector< TextureInfo> m_allTextureInfo;
+
 };

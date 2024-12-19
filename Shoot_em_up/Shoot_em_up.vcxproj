@@ -145,6 +145,7 @@
     <ClCompile Include="HighScrore.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Mymath.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="PowerUp.cpp" />
     <ClCompile Include="Projectile.cpp" />
@@ -160,6 +161,7 @@
     <ClInclude Include="FireMode.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="HighScore.h" />
+    <ClInclude Include="IEnnemy.h" />
     <ClInclude Include="IGameObject.h" />
     <ClInclude Include="IGraphics.h" />
     <ClInclude Include="Iinput.h" />
