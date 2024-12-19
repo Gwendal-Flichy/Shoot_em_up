@@ -1,2 +1,255 @@
 ﻿  main.cpp
-  Shoot_em_up.vcxproj -> C:\Users\gflichy\source\repos\Shoot_em_up\x64\Debug\Shoot_em_up.exe
+  MilitaryMenu.cpp
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(38,122): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(57,72): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(58,65): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(59,62): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(91,93): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(91,81): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(92,97): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(92,85): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(93,91): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(93,79): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(96,103): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(96,91): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(97,95): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(97,83): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(98,91): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(98,79): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(113,76): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(113,64): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(114,78): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(114,66): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(115,75): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(115,63): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(118,81): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(118,69): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(119,77): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(119,65): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(120,75): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(120,63): warning C4244: 'argument' : conversion de 'T' en 'T', perte possible de données
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(193,76): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(194,72): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\alacourmoreno\source\repos\Shoot_em_up\Shoot_em_up\MilitaryMenu.cpp(195,61): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+  Génération de code en cours...
+  Shoot_em_up.vcxproj -> C:\Users\alacourmoreno\Source\Repos\Shoot_em_up\x64\Debug\Shoot_em_up.exe
