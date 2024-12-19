@@ -1,4 +1,10 @@
 ﻿
+<<<<<<< HEAD
 D:\VisualStudio2022\Projet\Shoot_em_up\x64\Release\sfml-graphics-2.dll
 D:\VisualStudio2022\Projet\Shoot_em_up\x64\Release\sfml-window-2.dll
 D:\VisualStudio2022\Projet\Shoot_em_up\x64\Release\sfml-system-2.dll
+=======
+D:\prog\Shoot_em_up\x64\Release\sfml-graphics-2.dll
+D:\prog\Shoot_em_up\x64\Release\sfml-window-2.dll
+D:\prog\Shoot_em_up\x64\Release\sfml-system-2.dll
+>>>>>>> DEV_Gwen2

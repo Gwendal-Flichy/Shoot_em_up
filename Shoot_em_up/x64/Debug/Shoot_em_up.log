@@ -1,2 +1,41 @@
+<<<<<<< HEAD
+<<<<<<< Updated upstream
 ﻿  main.cpp
   Shoot_em_up.vcxproj -> C:\Users\gflichy\source\repos\Shoot_em_up\x64\Debug\Shoot_em_up.exe
+=======
+﻿  BattleShip.cpp
+  Player.cpp
+E:\Visual Studio projet\SFML\Shoot_em_up\Shoot_em_up\Player.cpp(61,40): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  Génération de code en cours...
+Player.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,struct Vec2 const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBUVec2@@@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "struct Vec2 __cdecl operator*(float const &,struct Vec2 const &)" (??D@YA?AUVec2@@AEBMAEBU0@@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "struct Vec2 __cdecl operator*(struct Vec2 const &,float const &)" (??D@YA?AUVec2@@AEBU0@AEBM@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "struct Vec2 __cdecl operator-(struct Vec2 const &,struct Vec2 const &)" (??G@YA?AUVec2@@AEBU0@0@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "struct Vec2 __cdecl operator+(struct Vec2 const &,struct Vec2 const &)" (??H@YA?AUVec2@@AEBU0@0@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "struct Vec2 __cdecl operator/(struct Vec2 const &,struct Vec2 const &)" (??K@YA?AUVec2@@AEBU0@0@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "public: struct Vec2 & __cdecl Vec2::operator+=(struct Vec2 const &)" (??YVec2@@QEAAAEAU0@AEBU0@@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "public: struct Vec2 & __cdecl Vec2::operator-=(struct Vec2 const &)" (??ZVec2@@QEAAAEAU0@AEBU0@@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "float __cdecl dotProduct(struct Vec2 &,struct Vec2 &)" (?dotProduct@@YAMAEAUVec2@@0@Z) déjà défini(e) dans BattleShip.obj
+Player.obj : error LNK2005: "public: float __cdecl Vec2::getlenght(void)" (?getlenght@Vec2@@QEAAMXZ) déjà défini(e) dans BattleShip.obj
+BattleShip.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl IEnnemy::handleInput(void)" (?handleInput@IEnnemy@@UEAAXXZ)
+BattleShip.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl IEnnemy::update(float)" (?update@IEnnemy@@UEAAXM@Z)
+BattleShip.obj : error LNK2001: symbole externe non résolu "public: virtual void __cdecl IEnnemy::render(class sf::RenderWindow &)" (?render@IEnnemy@@UEAAXAEAVRenderWindow@sf@@@Z)
+E:\Visual Studio projet\SFML\Shoot_em_up\x64\Debug\Shoot_em_up.exe : fatal error LNK1120: 3 externes non résolus
+>>>>>>> Stashed changes
+=======
+﻿  Player.cpp
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(61,40): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(63,57): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+D:\prog\Shoot_em_up\Shoot_em_up\Player.cpp(63,38): warning C4244: 'argument' : conversion de 'T' en 'float', perte possible de données
+          with
+          [
+              T=unsigned int
+          ]
+  Shoot_em_up.vcxproj -> D:\prog\Shoot_em_up\x64\Debug\Shoot_em_up.exe
+  'pwsh.exe' n'est pas reconnu en tant que commande interne
+  ou externe, un programme exécutable ou un fichier de commandes.
+>>>>>>> DEV_Gwen2
