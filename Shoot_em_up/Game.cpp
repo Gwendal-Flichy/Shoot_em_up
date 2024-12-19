@@ -1,16 +1,19 @@
 #include "Game.h"
 #include "IGameObject.h"
 #include "Player.h"
-#include "BattleShip.h"
-Game::Game() : m_window(sf::VideoMode(800, 800), "SFML works!")
+#include "BattleShip.h" 
+#include <iostream>
+sf::RenderWindow* m_window;
+
+
+Game::Game(sf::RenderWindow& window, MilitaryMenu& militaryMenu)
+    : m_window(window)
+    , m_menu(militaryMenu)
 {
     m_window.setFramerateLimit(60);
-    
-    
     m_allGameObject.push_back(new PlayerShip(*this));
     m_allGameObject.push_back(new Battleship(*this));
 }
-
 void Game::handleInput()
 {
     sf::Event event;
@@ -52,20 +55,48 @@ TextureCash& Game::getTextureCash()
     return m_allTextureCash;
 }
 
+void Game::run() {
+    sf::Clock clock;
+    bool isPaused = false;
 
-void Game::run()
-{
-    
-    //auto lastTime = getCurrentTime();
-    while (true)
-    {
-        //const auto currentTime = getCurrentTime();
-        //const auto elapsedTime = currentTime - lastTime;
+    while (m_window.isOpen()) {
+        sf::Event event;
+        while (m_window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed) {
+                m_window.close();
+            }
+            
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) {
+                isPaused = !isPaused;
+                if (isPaused) {
+                    m_menu.openPauseMenu();  
+                }
+                else {
+                    m_menu.closePauseMenu(); 
+                }
+            }
+        }
 
-        handleInput();
-        update(1.f/60.f);
-        render();
+        if (!isPaused) {
+            float deltaTime = clock.restart().asSeconds();
+            handleInput();
+            update(deltaTime);
+            render();
+        }
+        else {
+            
+            m_menu.checkMouseEvent();
+            m_menu.draw();
 
-        //lastTime = currentTime;
+            
+            std::string action = m_menu.getAction();
+            if (action == "Resume") {
+                isPaused = false;
+            }
+            else if (action == "Quit") {
+                m_window.close();
+                break;
+            }
+        }
     }
 }

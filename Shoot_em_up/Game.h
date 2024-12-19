@@ -1,17 +1,20 @@
 #pragma once
+#define GAME_H
 
 #include "vector"
 #include <SFML/Graphics.hpp>
 #include "ResourceManager.h"
-
+#include "MilitaryMenu.h"
 class IGameObject;
+class  MilitaryMenu;
 
 class Game
 {
-public:
     friend class PlayerShip;
-    Game();
-
+public:
+    
+    
+    Game(sf::RenderWindow& window, MilitaryMenu& militaryMenu);
     void handleInput();
 
     void update(float deltaTime);
@@ -23,9 +26,13 @@ public:
     TextureCash& getTextureCash();
 
 
+    
+
+   
 
 private:
-    sf::RenderWindow m_window;
+    sf::RenderWindow& m_window; 
     std::vector<IGameObject*> m_allGameObject;
     TextureCash m_allTextureCash;
+    MilitaryMenu& m_menu;
 };

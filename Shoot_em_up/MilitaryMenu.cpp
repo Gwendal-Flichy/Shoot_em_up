@@ -9,26 +9,26 @@ MilitaryMenu::MilitaryMenu(sf::RenderWindow& window)
     , difficultyLevel(0)
     , volumeLevel(0)
 {
-    // Vérification du chemin d'accès à l'image de fond
+    
     if (!backgroundTexture.loadFromFile("C:\\Users\\alacourmoreno\\Downloads\\water_tileset.png")) {
         std::cerr << "Erreur de chargement de l'image de fond" << std::endl;
         exit(1);
     }
 
-    // Vérification du chemin d'accès à la police
+    
     if (!font.loadFromFile("C:\\Windows\\Fonts\\impact.ttf")) {
         std::cerr << "Erreur de chargement de la police Arial" << std::endl;
         exit(1);
     }
 
-    // Initialisation du meilleur score
+    
     std::ifstream file("highscore.txt");
     if (file.is_open()) {
-        file >> highScore;  // Lire le score à partir du fichier
+        file >> highScore;  
         file.close();
     }
     else {
-        highScore = 0;  // Si le fichier n'existe pas, le score est à zéro
+        highScore = 0;  
     }
 
     highScoreText.setFont(font);
@@ -50,7 +50,7 @@ MilitaryMenu::MilitaryMenu(sf::RenderWindow& window)
     title.setFont(font);
     title.setString("MENU PRINCIPAL");
     title.setCharacterSize(50);
-    title.setFillColor(sf::Color::Green);
+    title.setFillColor(sf::Color(255, 165, 0));
     title.setStyle(sf::Text::Bold);
     title.setPosition(window.getSize().x / 2 - title.getGlobalBounds().width / 2, 50);
 
@@ -59,10 +59,20 @@ MilitaryMenu::MilitaryMenu(sf::RenderWindow& window)
     initButton(quitButton, "QUITTER", window.getSize().y / 4 + 200);
 
     initOptionButtons();
+    initPauseButtons();
 }
 
 MilitaryMenu::~MilitaryMenu() {
     // Pas besoin de gérer explicitement la musique, car il n'y a plus de musique.
+}
+
+void MilitaryMenu::initButton(sf::Text& button, const std::string& text, float positionY) {
+    button.setFont(font);
+    button.setString(text);
+    button.setCharacterSize(30);
+    button.setFillColor(sf::Color::Red);
+    button.setStyle(sf::Text::Bold);
+    button.setPosition(window.getSize().x / 2 - button.getGlobalBounds().width / 2, positionY);
 }
 
 void MilitaryMenu::draw() {
@@ -81,15 +91,31 @@ void MilitaryMenu::draw() {
         window.draw(volumeButton);
         window.draw(backButton);
     }
+    else if (currentMenu == PAUSE_MENU) {
+        window.draw(resumeButton);
+        window.draw(quitButton);
+    }
 
     window.display();
 }
 
+
 void MilitaryMenu::checkMouseEvent() {
+
     sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+
+    
+
+
+    
     if (currentMenu == MAIN_MENU) {
         startButton.setFillColor(startButton.getGlobalBounds().contains(mousePos.x, mousePos.y) ? sf::Color::Yellow : sf::Color::Red);
         optionsButton.setFillColor(optionsButton.getGlobalBounds().contains(mousePos.x, mousePos.y) ? sf::Color::Yellow : sf::Color::Red);
+        quitButton.setFillColor(quitButton.getGlobalBounds().contains(mousePos.x, mousePos.y) ? sf::Color::Yellow : sf::Color::Red);
+    }
+    else if (currentMenu == PAUSE_MENU) {
+        resumeButton.setFillColor(resumeButton.getGlobalBounds().contains(mousePos.x, mousePos.y) ?
+            sf::Color::Yellow : sf::Color::Red);
         quitButton.setFillColor(quitButton.getGlobalBounds().contains(mousePos.x, mousePos.y) ? sf::Color::Yellow : sf::Color::Red);
     }
     else if (currentMenu == OPTIONS_MENU) {
@@ -109,12 +135,17 @@ std::string MilitaryMenu::getAction() {
     if (sf::Mouse::isButtonPressed(sf::Mouse::Left) && canClick) {
         canClick = false;
 
+
         if (currentMenu == MAIN_MENU) {
             if (startButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Start";
             if (optionsButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Options";
             if (quitButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Quit";
         }
-        else if (currentMenu == OPTIONS_MENU) {
+        else if (currentMenu == PAUSE_MENU) {
+            if (resumeButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Resume";
+            if (quitButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Quit";
+        }
+         else if (currentMenu == OPTIONS_MENU) {
             if (difficultyButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Difficulty";
             if (volumeButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Volume";
             if (backButton.getGlobalBounds().contains(mousePos.x, mousePos.y)) return "Back";
@@ -123,6 +154,8 @@ std::string MilitaryMenu::getAction() {
 
     return "";
 }
+
+
 
 void MilitaryMenu::updateDifficulty() {
     difficultyLevel = (difficultyLevel + 1) % 3;
@@ -167,27 +200,43 @@ void MilitaryMenu::updateHighScore(int newScore) {
     if (newScore > highScore) {
         highScore = newScore;
 
-        // Sauvegarder le meilleur score dans un fichier
+       
         std::ofstream file("highscore.txt");
         if (file.is_open()) {
             file << highScore;
             file.close();
         }
 
-        // Mettre à jour le texte affichant le meilleur score
+
         highScoreText.setString("Meilleur score : " + std::to_string(highScore));
     }
 }
 
-
-void MilitaryMenu::initButton(sf::Text& button, const std::string& text, float positionY) {
-    button.setFont(font);
-    button.setString(text);
-    button.setCharacterSize(30);
-    button.setFillColor(sf::Color::Red);
-    button.setStyle(sf::Text::Bold);
-    button.setPosition(window.getSize().x / 2 - button.getGlobalBounds().width / 2, positionY);
+void MilitaryMenu::closePauseMenu() {
+    
+    currentMenu = MAIN_MENU;  
 }
+
+
+
+void MilitaryMenu::openPauseMenu() {
+    currentMenu = PAUSE_MENU;
+}
+
+void MilitaryMenu::initPauseButtons() {
+    initButton(resumeButton, "REPRENDRE", window.getSize().y / 4);
+    initButton(quitButton, "QUIT", window.getSize().y / 4 + 200);
+}
+
+void MilitaryMenu::drawPauseMenu() {
+    window.clear(sf::Color(0, 0, 0, 128)); 
+    window.draw(backgroundSprite);
+    window.draw(resumeButton);
+    window.draw(optionsPauseButton);
+    window.draw(quitButton);
+    window.display();
+}
+
 
 void MilitaryMenu::initOptionButtons() {
     initButton(difficultyButton, "DIFFICULTE : FACILE", window.getSize().y / 4);
